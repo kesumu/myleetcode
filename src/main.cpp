@@ -4,6 +4,7 @@
 #include "problems/add_two_numbers.h"
 #include "problems/longest_substring_without_repeating_characters.h"
 #include "problems/longest_palindromic_substring.h"
+#include "problems/string_to_integer_atoi.h"
 
 int main(int argc, char *argv[])
 {
@@ -12,7 +13,7 @@ int main(int argc, char *argv[])
 	//test_add_two_numbers();
 	//test_longest_substring_without_repeating_characters();
 	//Solution_longest_palindromic_substring s;
-	Solution_longest_palindromic_substring s;
+	Solution_string_to_integer_atoi s;
 	s.test();
 
     getchar();
