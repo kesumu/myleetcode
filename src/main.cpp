@@ -7,7 +7,8 @@
 //#include "problems/string_to_integer_atoi.h"
 //#include "problems/regular_expression_matching.h"
 //#include "problems/container_with_most_water.h"
-#include "problems/roman_to_integer.h"
+//#include "problems/roman_to_integer.h"
+#include "problems\longest_common_prefix.h"
 
 int main(int argc, char *argv[])
 {
@@ -19,7 +20,8 @@ int main(int argc, char *argv[])
 	//Solution_string_to_integer_atoi s;
 	//Solution_regular_expression_matching s;
 	//Solution_container_with_most_water s;
-	Solution_roman_to_integer s;
+	//Solution_roman_to_integer s;
+	Solution_longest_common_prefix s;
 	s.test();
 
     getchar();
