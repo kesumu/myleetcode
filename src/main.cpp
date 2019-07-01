@@ -9,7 +9,8 @@
 //#include "problems/container_with_most_water.h"
 //#include "problems/roman_to_integer.h"
 //#include "problems\longest_common_prefix.h"
-#include "problems\3sum.h"
+//#include "problems\3sum.h"
+#include "problems\letter_combinations_of_a_phone_number.h"
 
 int main(int argc, char *argv[])
 {
@@ -22,7 +23,8 @@ int main(int argc, char *argv[])
 	//Solution_regular_expression_matching s;
 	//Solution_container_with_most_water s;
 	//Solution_roman_to_integer s;
-	Solution_3sum s;
+	//Solution_3sum s;
+	Solution_letter_combinations_of_a_phone_number s;
 	s.test();
 
     getchar();
