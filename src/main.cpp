@@ -11,7 +11,8 @@
 //#include "problems\longest_common_prefix.h"
 //#include "problems\3sum.h"
 //#include "problems\letter_combinations_of_a_phone_number.h"
-#include "problems\remove_nth_node_from_end_of_list.h"
+//#include "problems\remove_nth_node_from_end_of_list.h"
+#include "problems\valid_parentheses.h"
 
 #include <string>
 
@@ -29,7 +30,8 @@ int main(int argc, char *argv[])
 	//Solution_roman_to_integer s;
 	//Solution_3sum s;
 	//Solution_letter_combinations_of_a_phone_number s;
-	Solution_remove_nth_node_from_end_of_list s;
+	//Solution_remove_nth_node_from_end_of_list s;
+	Solution_valid_parentheses s;
 	s.test();
 
     getchar();
