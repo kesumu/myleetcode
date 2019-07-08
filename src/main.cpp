@@ -13,7 +13,8 @@
 //#include "problems\letter_combinations_of_a_phone_number.h"
 //#include "problems\remove_nth_node_from_end_of_list.h"
 //#include "problems\valid_parentheses.h"
-#include "problems\merge_two_sorted_lists.h"
+//#include "problems\merge_two_sorted_lists.h"
+#include "problems\generate_parentheses.h"
 
 #include <string>
 
@@ -33,7 +34,8 @@ int main(int argc, char *argv[])
 	//Solution_letter_combinations_of_a_phone_number s;
 	//Solution_remove_nth_node_from_end_of_list s;
 	//Solution_valid_parentheses s;
-	Solution_merge_two_sorted_lists s;
+	//Solution_merge_two_sorted_lists s;
+	Solution_generate_parentheses s;
 	s.test();
 
     getchar();
