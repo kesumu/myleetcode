@@ -16,7 +16,8 @@
 //#include "problems\merge_two_sorted_lists.h"
 //#include "problems\generate_parentheses.h"
 //#include "problems\merge_k_sorted_lists.h"
-#include "problems\remove_duplicates_from_sorted_array.h"
+//#include "problems\remove_duplicates_from_sorted_array.h"
+#include "problems\implement_strstr.h"
 
 #include <string>
 
@@ -39,7 +40,8 @@ int main(int argc, char *argv[])
 	//Solution_merge_two_sorted_lists s;
 	//Solution_generate_parentheses s;
 	//Solution_merge_k_sorted_lists s;
-	Solution_remove_duplicates_from_sorted_array s;
+	//Solution_remove_duplicates_from_sorted_array s;
+	Solution_implement_strstr s;
 
 	s.test();
 
