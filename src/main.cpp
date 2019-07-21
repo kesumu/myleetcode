@@ -18,7 +18,8 @@
 //#include "problems\merge_k_sorted_lists.h"
 //#include "problems\remove_duplicates_from_sorted_array.h"
 //#include "problems\implement_strstr.h"
-#include "problems\divide_two_integers.h"
+//#include "problems\divide_two_integers.h"
+#include "problems\search_in_rotated_sorted_array.h"
 
 #include <string>
 
@@ -43,7 +44,8 @@ int main(int argc, char *argv[])
 	//Solution_merge_k_sorted_lists s;
 	//Solution_remove_duplicates_from_sorted_array s;
 	//Solution_implement_strstr s;
-	Solution_divide_two_integers s;
+	//Solution_divide_two_integers s;
+	Solution_search_in_rotated_sorted_array s;
 
 	s.test();
 
