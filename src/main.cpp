@@ -19,14 +19,15 @@
 //#include "problems\remove_duplicates_from_sorted_array.h"
 //#include "problems\implement_strstr.h"
 //#include "problems\divide_two_integers.h"
-#include "problems\search_in_rotated_sorted_array.h"
+//#include "problems\search_in_rotated_sorted_array.h"
+#include "problems/zigzag_conversion.h"
 
 #include <string>
 
 
 int main(int argc, char *argv[])
 {
-	// test_wildcard_matching();
+	//test_wildcard_matching();
 	//test_two_sum();
 	//test_add_two_numbers();
 	//test_longest_substring_without_repeating_characters();
@@ -45,7 +46,8 @@ int main(int argc, char *argv[])
 	//Solution_remove_duplicates_from_sorted_array s;
 	//Solution_implement_strstr s;
 	//Solution_divide_two_integers s;
-	Solution_search_in_rotated_sorted_array s;
+	//Solution_search_in_rotated_sorted_array s;
+	Solution_zigzag_conversion s;
 
 	s.test();
 
