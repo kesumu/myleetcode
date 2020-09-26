@@ -20,7 +20,8 @@
 //#include "problems\implement_strstr.h"
 //#include "problems\divide_two_integers.h"
 //#include "problems\search_in_rotated_sorted_array.h"
-#include "problems/zigzag_conversion.h"
+//#include "problems/zigzag_conversion.h"
+#include "problems/palindrome_number.h"
 
 #include <string>
 
@@ -47,7 +48,7 @@ int main(int argc, char *argv[])
 	//Solution_implement_strstr s;
 	//Solution_divide_two_integers s;
 	//Solution_search_in_rotated_sorted_array s;
-	Solution_zigzag_conversion s;
+	Solution_palindrome_number s;
 
 	s.test();
 
