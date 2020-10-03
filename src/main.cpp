@@ -23,7 +23,8 @@
 //#include "problems/zigzag_conversion.h"
 //#include "problems/palindrome_number.h"
 //#include "problems/integer_to_roman.h"
-#include "problems/3sum_closest.h"
+//#include "problems/3sum_closest.h"
+#include "problems/four_sum.h"
 
 #include <string>
 
@@ -50,7 +51,7 @@ int main(int argc, char *argv[])
 	//Solution_implement_strstr s;
 	//Solution_divide_two_integers s;
 	//Solution_search_in_rotated_sorted_array s;
-	Solution_3sum_closest s;
+	Solution_4sum s;
 
 	s.test();
 
